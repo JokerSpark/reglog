@@ -1,0 +1,23 @@
+#box{
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+.mes{
+    width: 300px;
+    margin-left: 500px;
+
+}
+
+.na{
+    margin-left: 920px;
+}
+
+#tb{
+    width: 50%;
+    margin-top: 100px;
+    
+}

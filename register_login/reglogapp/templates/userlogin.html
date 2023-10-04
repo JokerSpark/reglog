@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+{% block title %}
+<title>User Login </title>
+{% endblock %}
+
+{% block content %}
+
+
+
+<div id="box"> 
+<form action="" method="post">
+    {% csrf_token %}
+    {% load crispy_forms_tags %}
+    {{form|crispy}}
+    <button type="submit">Login</button>
+</form>
+</div>
+</form>
+
+
+{% endblock %}
